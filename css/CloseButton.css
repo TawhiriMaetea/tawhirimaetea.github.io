@@ -1,0 +1,42 @@
+﻿.close-button {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+    .close-button::before,
+    .close-button::after {
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 1.5px;
+        /*background-color: black;*/
+        background-color: var(--color-font-normal);
+        top: 50%;
+        left: 50%;
+        transform-origin: center;
+    }
+
+    /* Diagonal lines */
+    .close-button::before {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .close-button::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    /* Shadow on hover */
+    .close-button:hover {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+     /*Shadow on active (click) */
+    .close-button:active {
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }

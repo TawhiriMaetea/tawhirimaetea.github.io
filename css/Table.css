@@ -1,0 +1,29 @@
+﻿
+/* General table styling */
+.table {
+    width: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+    /* Table header styling */
+    .table th {
+        font-weight: bold;
+        color: var(--color-font-normal);
+    }
+
+    /* Table row styling */
+    .table tr {
+        border: none;
+    }
+
+    /* Table cell styling */
+    .table td {
+        border: none;
+        text-align: left;
+    }
+
+    /* Highlight row on hover */
+    .table tr:hover {
+        background-color: var(--color-hover);
+    }
