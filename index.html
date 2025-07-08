@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ToleranceTool</title>
-    <base href="tawhirimaetea.github.io" />
+    <base href="/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link href="css/site.css" rel="stylesheet">
@@ -54,16 +54,6 @@
 </body>
 
 </html>
-
-<!--// This script is used to get the window width-->
-<script>
-    window.addResizeListener = function (dotNetObject) {
-        dotNetObject.invokeMethodAsync('UpdateWindowWidth', window.innerWidth); // Initialize width on first render
-        window.onresize = function () {
-            dotNetObject.invokeMethodAsync('UpdateWindowWidth', window.innerWidth);
-        };
-    };
-</script>
 
 
 

@@ -164,22 +164,41 @@ code {
     --color-p6-ashenvaleNights: #104071;
     --color-p6-hadopelagicWater: #000022;
     --color-p6-lightBlue: #99EEFF;
+
+    --color-p7-blue_1: #caf0f8;
+    --color-p7-blue_2: #ade8f4;
+    --color-p7-blue_3: #90e0ef;
+    --color-p7-blue_4: #48cae4;
+    --color-p7-blue_5: #00b4d8;
+    --color-p7-blue_6: #0096c7;
+    --color-p7-blue_7: #0077b6;
+    --color-p7-blue_8: #023e8a;
+    --color-p7-blue_9: #03045e;
+    --color-p7-yellow: #eeff99;
+    --color-p7-orange: #FFC000;
+    --color-p7-green: #92D050;
+    
+
     /* color asignments*/
     --color-background: var(--color-gray-0);
     --color-font-normal: var(--color-gray-6);
     --color-font-light: var(--color-gray-3);
     --color-font-dark: var(--color-gray-7);
-    --color-font-blue: var(--color-p6-ashenvaleNights);
+    /* --color-font-blue: var(--color-p6-ashenvaleNights); */
     --color-white: var(--color-white);
     --color-hover: var(--color-gray-0);
-    --color-SL: var(--color_Darkgreen);
-    --color-arithmetic: var(--color-p6-seaFantasy);
-    --color-RSS: var(--color-p6-ashenvaleNights);
-    --color-statistical: var(--color-p6-hadopelagicWater);
+
+    --color-SL: var(--color-p7-blue_8);
+
+    --color-arithmetic: var(--color-p7-blue_9);
+    --color-RSS: var(--color-p7-blue_7);
+    --color-statistical: var(--color-p7-blue_5);
+    --color-MC: var(--color-p7-blue_3);
+    
     --color-positive: var(--color-p6-lightBlue);
     --color-negative: var(--color-p6-metalSpark);
-    --color-MC: var(--color_Orange);
-    --color-tolerance: var(--color-p6-lightBlue);
+    
+    --color-tolerance: var(--color-p7-blue_2);
 }
 
 /*-----------Parameter display styling---------------------------*/
@@ -208,7 +227,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
-    border-bottom: 1.2px solid #ccc; /* Thin horizontal line */
+    border-bottom: 1.2px solid var(--color-gray-3) ; /* Thin horizontal line */
     white-space: nowrap;
     color: var(--color-font-normal);
 }
@@ -279,7 +298,7 @@ input[type="number"], input[type="text"] {
     margin: 3px;
     padding: 3px;
     margin-right: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--color-gray-3);
     border-radius: 3px;
 }
 

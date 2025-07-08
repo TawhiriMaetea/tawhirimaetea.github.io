@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ToleranceTool",
   "resources": {
-    "hash": "sha256-KmJIU15iGPafXFXu8HU6UttvRathSz94aTj/MHK28RY=",
+    "hash": "sha256-J/fTTZrStVFaumUj3eWS3AW4ule/wvf42gbETxI7lfY=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-RiGT44TFZmHOY+Oqvb8o8r+BJVWex6+dPxFxrOiWvFY="
     },
@@ -127,7 +127,7 @@
       "mscorlib.wasm": "sha256-utfhrj0dIp0qAAOtRtA6HIQVSsFb7hQEuWSX1u9qrpU=",
       "netstandard.wasm": "sha256-I5bzUr7isSRO94TxZ/HvL/Y+Y0mlErTkcJ0vo5tR/F4=",
       "System.Private.CoreLib.wasm": "sha256-SRSQCfd52Nljp5MbK5TBAYzQhkuxFq2y8w2X7oDmMBY=",
-      "ToleranceTool.wasm": "sha256-gKAWCKLzdKwKrk80QUsRR38h6Wd6KX1ebEWOvvoQs9Q="
+      "ToleranceTool.wasm": "sha256-RQLiRNm8UiLF481IfAsC7fNb2OezppLzlHI6Qe125/Y="
     },
     "satelliteResources": {
       "cs": {

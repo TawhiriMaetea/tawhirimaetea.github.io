@@ -1,16 +1,16 @@
 self.assetsManifest = {
-  "version": "Ecbtptvi",
+  "version": "GxLdst7g",
   "assets": [
     {
       "hash": "sha256-SMKzLJEMy2N8RnRfCBcCEyORv8bFMdFbIWXiWBS8Su8=",
       "url": "JS/FileHandler.js"
     },
     {
-      "hash": "sha256-C8eBmYg7Tcl/kplWQhjHwR9zEUHBIr9pUrmKhZC6Gx4=",
+      "hash": "sha256-dhWGbn1mcWuP4ijWuAS1FWZowP+ny61LcjJKbG1XysQ=",
       "url": "JS/Histogram.js"
     },
     {
-      "hash": "sha256-ttqmY+sCMqDO/W+0d0cEIxZoJ3LIWTvPNztfApgzR68=",
+      "hash": "sha256-SMJ82a2s6JsCEMzIzHHPSQ12V7zAQ/I/eBFuk2e7mRc=",
       "url": "ToleranceTool.styles.css"
     },
     {
@@ -422,11 +422,11 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-gKAWCKLzdKwKrk80QUsRR38h6Wd6KX1ebEWOvvoQs9Q=",
+      "hash": "sha256-RQLiRNm8UiLF481IfAsC7fNb2OezppLzlHI6Qe125/Y=",
       "url": "_framework/ToleranceTool.wasm"
     },
     {
-      "hash": "sha256-gRvINCV6awlUHcgc9ulyMhyb3afwBGBg4E06nZRLDc0=",
+      "hash": "sha256-tnrWThASmfvCGhmpCKhtjfVWq78JB5Lx86/GZEEW4fg=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -770,7 +770,7 @@ self.assetsManifest = {
       "url": "css/Tooltip.css"
     },
     {
-      "hash": "sha256-rUf+zIbQM/sTpHeVDLjK5xJqZB2qpS2Qo4JKXtvyyU8=",
+      "hash": "sha256-uvm2SmA9bqq+Y8YcSAXtDAi6QDRX10XCCG7k9emzXsw=",
       "url": "css/app.css"
     },
     {
@@ -798,7 +798,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-nQxYa5hgB9peu7ViuBAmc/6c0Ks13NxjcYRNKUOgtv0=",
+      "hash": "sha256-+SIXmTV0fg0g1na4Bg0pj45h0pASRaSPGprJcpU8rEQ=",
       "url": "index.html"
     },
     {
@@ -806,12 +806,20 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-Z5HfJbSADenp7BIUwfezmAtaFJPtrqHhjrCCsnXW/oA=",
-      "url": "sample-data/SampleDimensionChain.json"
+      "hash": "sha256-rMGhhWUJ5KHZg+NdfmEPXN3Pc5j+Xtn6daOVWuvTO0c=",
+      "url": "sample-data/Default.json"
     },
     {
-      "hash": "sha256-mnXJpbS/3H72t50LzPAjRjvnAqpK9Td03iNLA5rJRfo=",
+      "hash": "sha256-zj7YFra2V1MXFgEboN+KjbhebSPEAORTCROKms9gzrA=",
+      "url": "sample-data/Empty.json"
+    },
+    {
+      "hash": "sha256-DFlaiXSFtS5V4bdZT6NI6M0F1AOeDTL/4uS5gQ3BtVY=",
       "url": "sample-data/SampleP2H.json"
+    },
+    {
+      "hash": "sha256-WHwxeM6qEIZoesn6zMr3opntMVBPm7JjJ6D3UgdMdk0=",
+      "url": "sample-data/SampleThrust.json"
     }
   ]
 };

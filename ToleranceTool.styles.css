@@ -518,6 +518,9 @@ main[b-rqf5craf7u] {
 .bar-statistical[b-h39tljvxrl] {
     fill: var(--color-statistical);
 }
+.bar-MC[b-h39tljvxrl] {
+    fill: var(--color-MC);
+}
 .bar-tolerance[b-h39tljvxrl] {
     fill: rgb(0,0,0,0);
     stroke-width: 1;
@@ -570,7 +573,7 @@ main[b-rqf5craf7u] {
 }
 
 .light-grey-text[b-h39tljvxrl] {
-    color: #bbb !important;
+    color: var(--color-font-light) !important;
 }
 /*
 .toggle-useNominal-wrapper {

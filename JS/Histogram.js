@@ -26,9 +26,11 @@ function createHistogram(chartID,curveX, curveY, width, height, nominalValue = 0
             type: 'bar',
             name: 'Histogram',
             marker: {
-                color: 'rgba(75, 192, 192, 0.2)',
+                // color: 'rgba(75, 192, 192, 0.2)',
+                color: '#caf0f880',
                 line: {
-                    color: 'rgba(75, 192, 192, 1)',
+                    // color: 'rgba(75, 192, 192, 1)',
+                    color: '#caf0f8ff',
                     width: 1
                 }
             }
@@ -61,10 +63,12 @@ function createHistogram(chartID,curveX, curveY, width, height, nominalValue = 0
         fill: 'tozeroy',
         name: 'Between LCL–UCL',
         line: {
-            color: 'rgba(255, 88, 0, 0)', // invisible line
+            // color: 'rgba(255, 88, 0, 0)', // invisible line
+            color: '#00b4d800', // invisible line
             width: 0
         },
-        fillcolor: 'rgba(255, 88, 0, 0.2)' // same as your original
+        // fillcolor: 'rgba(255, 88, 0, 0.2)' // same as original
+        fillcolor: '#00b4d840' // same as original
     };
 
     const curveTrace = {
@@ -74,7 +78,8 @@ function createHistogram(chartID,curveX, curveY, width, height, nominalValue = 0
         mode: 'lines',
         name: 'Curve',
         line: {
-            color: 'rgba(255, 88, 0, 1)',
+            // color: 'rgba(255, 88, 0, 1)',
+            color: '#00b4d8ff',
             width: 1
         },
         fill: 'none' // no fill here anymore
