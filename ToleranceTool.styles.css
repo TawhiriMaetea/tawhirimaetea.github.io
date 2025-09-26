@@ -182,14 +182,28 @@ main[b-rqf5craf7u] {
     }
 
 /* direction switch */
+/*.toggle-direction-wrapper input.tgl:checked + .tgl-btn:before {
+    content: "+ →";
+    color: var(--color-font-normal);
+}
+
+.toggle-direction-wrapper input.tgl:not(:checked) + .tgl-btn:before {
+    content: "← -";
+    color: var(--color-font-normal);
+}*/
+
 .toggle-direction-wrapper input.tgl:checked + .tgl-btn[b-exgya05esn]:before {
+    /*content: "+\A→";*/
     content: "+";
-    color: var(--color-font-blue);
+    color: var(--color-font-normal);
+    white-space: pre;
 }
 
 .toggle-direction-wrapper input.tgl:not(:checked) + .tgl-btn[b-exgya05esn]:before {
+    /*content: "←\A-";*/
     content: "-";
-    color: var(--color-font-blue);
+    color: var(--color-font-normal);
+    white-space: pre;
 }
 
 .toggle-direction-wrapper input.tgl:checked + .tgl-btn[b-exgya05esn] {
@@ -277,6 +291,7 @@ main[b-rqf5craf7u] {
 .cancel-button:hover[b-b473nuwnrn] {
     background-color: #c3a32d;
 }
+
 /* /Pages/Home.razor.rz.scp.css */
 
 /*  Container settings  */
