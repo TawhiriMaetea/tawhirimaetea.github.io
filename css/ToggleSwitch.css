@@ -1,7 +1,8 @@
 ﻿.checkbox {
     --blue: #0d7eff;
     --g08: #e1e5eb;
-    --g04: #848ea1;
+    /*--g04: #848ea1;*/
+    --g04: #697489;
     text-align: center;
 }
 

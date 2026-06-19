@@ -251,7 +251,7 @@ function createHistogram(chartID,curveX, curveY, width, height, nominalValue = 0
 
     // Plotly.newPlot('histogramChart', traces, layout, { displayModeBar: false });
     // Plotly.newPlot('MCchart', traces, layout, { displayModeBar: false });
-    Plotly.newPlot(chartID, traces, layout, { displayModeBar: false });
+    Plotly.newPlot(chartID, traces, layout, { displayModeBar: 'hover' });
 
 
     

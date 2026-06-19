@@ -8,7 +8,7 @@
     <base href="/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
-    <link href="css/site.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="ToleranceTool.styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="ToleranceTool.styles.css" />
@@ -20,6 +20,7 @@
     <link href="css/MenuButton.css" rel="stylesheet" />
     <link href="css/Tooltip.css" rel="stylesheet" />
     <link href="css/Table.css" rel="stylesheet" />
+    <link href="css/RadioButton.css" rel="stylesheet" />
 
 </head>
 
@@ -40,16 +41,30 @@
 
     <script src="JS/FileHandler.js"></script>
 
+    <!-- Load third-party and app JS before Blazor to ensure JS interop functions are available -->
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+    <script src="JS/Histogram.js"></script>
+    <script src="JS/helpSystem.js"></script>
+    <script src="JS/PistonToValveGraph.js"></script>
+
     <script src="_framework/blazor.webassembly.js"></script>
 
 
-    <script>navigator.serviceWorker.register('service-worker.js');</script>
-
-    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-
-    <script src="JS/Histogram.js"></script>
-
-    <script src="js/helpSystem.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                // Development: unregister any stale service workers so cached assets
+                // never block the dev server and the "two tabs" PWA install behaviour
+                // (display:standalone) does not occur.
+                navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                    registrations.forEach(function (r) { r.unregister(); });
+                });
+            } else {
+                // Production: register the service worker for offline/PWA support.
+                navigator.serviceWorker.register('service-worker.js');
+            }
+        }
+    </script>
 
 
 </body>
